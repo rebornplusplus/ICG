@@ -14,13 +14,13 @@ $ make
 ```
 
 A binary named `icg` will be generated. If you have a C-subset code in a file named
-`input.c`, run the following command.
+[input.c](./input.c), run the following command.
 ```
 $ ./icg input.c
 ```
 
-A equivalent 8086 Assembly code will be generated in `code.asm` file. Additionally, a text 
-file named `error.txt` is also created which contains list of errors encountered during
+A equivalent 8086 Assembly code will be generated in [code.asm](./code.asm) file. Additionally, a text 
+file named [error.txt](./error.txt) is also created which contains list of errors encountered during
 compilation i.e. code generation.
 
 ### Dependencies
